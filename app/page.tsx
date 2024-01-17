@@ -1,3 +1,4 @@
+"use client";
 import dynamic from "next/dynamic";
 
 const MapsApp = dynamic(() => import("@/components/MapsApp"), {
